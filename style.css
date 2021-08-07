@@ -1,0 +1,91 @@
+ *
+ {
+	 margin: 0;
+	 padding: 0;
+	 box-sizing: border-box;
+ }
+ body {
+	 background: url(background.png)
+ }
+ .minu-bar{
+	text-align: center;
+		background:rgb(0,100,0);
+ }
+ .minu-bar ul{
+	 display: inline-flex;
+	 list-style: none;
+ } 
+ .minu-bar ul li{
+	 width:120px;
+	 margin:15px;
+	 padding:15px;
+ }
+  ul a{
+	  color:#fff;
+	  text-decoration: none;
+	  text-transform: capitalize;
+ }
+ .active,.minu-bar ul li:hover{
+	 background:#2bab0d;
+	 border-radius:3px;
+	 
+ }
+ 
+ .minu-bar .fa{
+	 margin-right:3px;
+ }
+ .sub-minu-1
+ {
+	 display:none;
+ }
+  .minu-bar ul li:hover .sub-minu-1 
+  {
+	  display:block;
+	  position:absolute;
+	  background: rgb(0,100,0);
+	  margin-top:15px;
+	  margin-left:-15px;
+  }
+  
+  .minu-bar ul li:hover .sub-minu-1 ul
+  {
+	  display:block;
+	  background:transparent;
+	 
+  }
+   .sub-minu-1 ul li{
+	   width:200px;
+   }
+   .minu-bar ul:hover .sub-minu-1 ul li{
+	  border-bottom: 1px dotted #fff;
+	  text-align:left;
+  }
+   
+  .minu-bar ul:hover .sub-minu-1 ul li:hover {
+    background: transparent;
+	
+}
+
+.minu-bar ul:hover .sub-minu-1 ul li:last-child {
+border-bottom:none;
+}
+  .fa-angle-right{
+	  float:right;
+  }
+  
+  .sub-minu-2{
+	  display:none;
+  }
+  .hover-me:hover .sub-minu-2{
+	  display:block;
+	  position:absolute;
+	  margin-top:-50px;
+	  margin-left:130px;
+	  background: rgb(0,100,0);
+  }
+  
+  .sub-minu-2 ul li{
+	  width:100px;
+  }
+  
+  
